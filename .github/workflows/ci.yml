@@ -21,7 +21,7 @@ jobs:
 
     - name: Compile Code
       run: |
-        python -m py_compile todo.py
+        python -m py_compile TodoList.py
 
     - name: Run the Program
       run: |
